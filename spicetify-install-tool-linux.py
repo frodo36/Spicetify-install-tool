@@ -2,7 +2,7 @@ from shutil import rmtree
 from time import sleep
 from os import getlogin, path, system
 
-config_folder = f"home/{getlogin()}.config/.spicetify"
+config_folder = f"home/{getlogin()}.config/spicetify"
 cli_folder = f"/home/{getlogin()}/spicetify-cli"
 
 def clear():
